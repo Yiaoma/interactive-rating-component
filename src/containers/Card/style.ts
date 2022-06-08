@@ -117,7 +117,7 @@ export const StyledRadio = styled(Radio)`
     background-color: ${({ theme }) => theme.colors.mediumGrey};
   }
 
-  &:focus-within {
+  &[data-checked='true'] {
     color: ${({ theme }) => theme.colors.pureWhite};
     background-color: ${({ theme }) => theme.colors.orange};
   }

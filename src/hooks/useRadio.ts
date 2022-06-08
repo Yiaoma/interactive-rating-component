@@ -1,14 +1,10 @@
-import { useState, FormEvent } from 'react';
-
-type HTMLElementEvent<T extends HTMLElement> = Event & {
-  target: T;
-};
+import { useState, ChangeEvent } from 'react';
 
 export default () => {
   const [radioInput, setRadioInput] = useState('');
 
-  const handleRadioInput = (event: HTMLElementEvent<HTMLInputElement>) =>
-    setRadioInput(event.target.value);
+  const handleRadioInput = (event: ChangeEvent<HTMLInputElement>) =>
+    setRadioInput(event.currentTarget.value);
 
   return [radioInput, handleRadioInput] as const;
 };

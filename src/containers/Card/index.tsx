@@ -43,20 +43,45 @@ export const Card = () => {
             feedback is appreciated to help us improve our offering!
           </StyledP>
           <StyledForm onSubmit={handleSubmit}>
-            <StyledFieldSet onChange={(event) => console.log(event)}>
-              <StyledRadio name="rating" value={1}>
+            <StyledFieldSet>
+              <StyledRadio
+                name="rating"
+                value={1}
+                checked={rating}
+                onChange={(event) => handleRating(event)}
+              >
                 1
               </StyledRadio>
-              <StyledRadio name="rating" value={2}>
+              <StyledRadio
+                name="rating"
+                value={2}
+                checked={rating}
+                onChange={(event) => handleRating(event)}
+              >
                 2
               </StyledRadio>
-              <StyledRadio name="rating" value={3}>
+              <StyledRadio
+                name="rating"
+                value={3}
+                checked={rating}
+                onChange={(event) => handleRating(event)}
+              >
                 3
               </StyledRadio>
-              <StyledRadio name="rating" value={4}>
+              <StyledRadio
+                name="rating"
+                value={4}
+                checked={rating}
+                onChange={(event) => handleRating(event)}
+              >
                 4
               </StyledRadio>
-              <StyledRadio name="rating" value={5}>
+              <StyledRadio
+                name="rating"
+                value={5}
+                checked={rating}
+                onChange={(event) => handleRating(event)}
+              >
                 5
               </StyledRadio>
             </StyledFieldSet>
