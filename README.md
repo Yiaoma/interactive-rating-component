@@ -14,7 +14,6 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -33,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/interactive-rating-component-react-typescript-48AW1x6k4d)
 - Live Site URL: [Add live site URL here](https://yiaoma.github.io/interactive-rating-component/)
 
 ## My process
