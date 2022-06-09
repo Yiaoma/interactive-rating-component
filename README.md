@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/interactive-rating-component-react-typescript-48AW1x6k4d)
-- Live Site URL: [Add live site URL here](https://yiaoma.github.io/interactive-rating-component/)
+- [Solution](https://www.frontendmentor.io/solutions/interactive-rating-component-react-typescript-48AW1x6k4d)
+- [Live site](https://yiaoma.github.io/interactive-rating-component/)
 
 ## My process
 
